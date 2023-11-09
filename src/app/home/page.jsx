@@ -1,12 +1,16 @@
 import NavBar from "@/components/navBar";
+import style from "./home.module.css";
 import React from "react";
 export default function Home() {
   return (
     <div>
       <NavBar />
-      <div className="">
-        <img src="../images/banner-home1.png" alt="banner"  ></img>
-        
+      <div id={style.banner_home}>
+        <img
+          id={style.banner_home}
+          src="../images/banner-home.png"
+          alt="banner"
+        ></img>
       </div>
     </div>
   );
