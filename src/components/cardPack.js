@@ -4,36 +4,36 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAdd, faArrowsV } from "@fortawesome/free-solid-svg-icons";
 const CardPack = () => {
   return (
-    <div class="container">
-      <div class="flex flex-wrap -m-4">
-        <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+    <div className="container">
+      <div className="flex flex-wrap -m-4">
+        <div className="p-4 md:w-1/3">
+          <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src="https://dummyimage.com/720x400"
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
+            <div className="p-6">
+              <h1 className="title-font text-2xl font-bold text-gray-900 mb-3">
                 Pack 1
               </h1>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <div class="flex items-center flex-wrap ">
-                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                   En savoir plus
                   <svg
-                    class="w-4 h-4 ml-2"
+                    className="w-4 h-4 ml-2"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -52,34 +52,34 @@ const CardPack = () => {
           </div>
         </div>
         {/* Card 2 */}
-        <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+        <div className="p-4 md:w-1/3">
+          <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src="https://dummyimage.com/720x400"
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
+            <div className="p-6">
+              <h1 className="title-font text-2xl font-bold text-gray-900 mb-3">
                 Pack 2
               </h1>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <div class="flex items-center flex-wrap ">
-                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                   En savoir plus
                   <svg
-                    class="w-4 h-4 ml-2"
+                    className="w-4 h-4 ml-2"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -100,34 +100,34 @@ const CardPack = () => {
 
         {/* Card 3 */}
 
-        <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+        <div className="p-4 md:w-1/3">
+          <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
             <img
-              class="lg:h-48 md:h-36 w-full object-cover object-center"
+              className="lg:h-48 md:h-36 w-full object-cover object-center"
               src="https://dummyimage.com/720x400"
               alt="blog"
             />
-            <div class="p-6">
-              <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
+            <div className="p-6">
+              <h1 className="title-font text-2xl font-bold text-gray-900 mb-3">
                 Pack 3
               </h1>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <p class="leading-relaxed mb-3">
-                <FontAwesomeIcon icon={faAdd} size="x" />
+              <p className="leading-relaxed mb-3">
+                <FontAwesomeIcon icon={faAdd} size="1x" />
                 <span> Un texte rapide pour décrire la carte.</span>
               </p>
-              <div class="flex items-center flex-wrap ">
-                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+              <div className="flex items-center flex-wrap ">
+                <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                   En savoir plus
                   <svg
-                    class="w-4 h-4 ml-2"
+                    className="w-4 h-4 ml-2"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
