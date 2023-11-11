@@ -1,9 +1,13 @@
+import NavBar from "@/components/navBar";
+import style from "./contact.css";
 import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
-      hi what are you doing
+    <div>
+      <NavBar />
+      <div id={style.banner_contact}></div>
+      {/* <img src="../images/banner-contact.png" alt="banner-contact"></img> */}
     </div>
   );
 };

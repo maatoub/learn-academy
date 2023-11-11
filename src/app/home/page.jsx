@@ -4,6 +4,7 @@ import style from "./home.module.css";
 import React from "react";
 import ThreeRectangles from "@/components/threeRectangles";
 import CardPack from "@/components/cardPack";
+import Footer from "@/components/footer";
 export default function Home() {
   return (
     <div>
@@ -52,6 +53,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-20">
+        <Footer />
       </div>
     </div>
   );
