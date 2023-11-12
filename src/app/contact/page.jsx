@@ -33,20 +33,31 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex flex-wrap ">
-          <div className="w-full md:w-1/2 p-10">
+          <div className="w-full md:w-1/3 p-10">
             <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
               <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                <span class="text-4xl font-bold">Phone</span>
-                <p class="text-amber-300 font-thin">- +212 65958555 -</p>
+                <span class="text-3xl font-bold">Phone</span>
+                <p class="text-amber-300 font-thin text-xl">
+                  - +212 65958555 -
+                </p>
               </div>
             </div>
           </div>
-
-          <div className="w-full md:w-1/2 p-10">
+          <div className="w-full md:w-1/3 p-10">
             <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
-              <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
-                <span class="text-4xl font-bold">E-mail</span>
-                <p class="text-amber-300 font-thin">- aaaaa@gmail.com -</p>
+              <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-red-500 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-red-400 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                <span class="text-3xl font-bold">E-mail</span>
+                <p class="text-amber-300 font-thin text-xl">
+                  - aaaaa@gmail.com -
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-1/3 p-10">
+            <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+              <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-yellow-500 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-yellow-400 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                <span class="text-3xl font-bold">Location</span>
+                <p class="text-white font-thin text-xl">- Casablanca -</p>
               </div>
             </div>
           </div>

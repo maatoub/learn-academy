@@ -7,13 +7,9 @@ export default function Footer() {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="https://flowbite.com/" class="flex items-center">
-              <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                class="h-8 me-3"
-                alt="FlowBite Logo"
-              />
+              <img src="../images/logo.png" class="h-8 me-3" alt="Logo" />
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Flowbite
+                Learn
               </span>
             </a>
           </div>
@@ -82,7 +78,7 @@ export default function Footer() {
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
             <a href="https://flowbite.com/" class="hover:underline">
-              Flowbite™
+              Learn™
             </a>
             . All Rights Reserved.
           </span>
@@ -140,8 +136,6 @@ export default function Footer() {
               </svg>
               <span class="sr-only">Twitter page</span>
             </a>
-           
-           
           </div>
         </div>
       </div>
