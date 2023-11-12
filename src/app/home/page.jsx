@@ -12,6 +12,7 @@ export default function Home() {
 
       <img
         id={style.banner_home}
+        className="w-full h-auto"
         src="../images/banner-home.png"
         alt="banner"
       ></img>
@@ -32,7 +33,7 @@ export default function Home() {
           </h1>
           <ThreeRectangles />
           <div className="flex flex-wrap">
-            <div className="w-full sm:w-1/2">
+            <div className="w-full sm:w-1/2 lg:pr-4">
               <p className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl mt-14">
                 With our events, workshops, and workshops, we offer you
                 enriching experiences. Join our events to meet career experts
@@ -49,7 +50,11 @@ export default function Home() {
               </p>
             </div>
             <div className="w-full sm:w-1/2">
-              <img src="../images/student1.png" alt="banner"></img>
+              <img
+                className="w-full h-auto"
+                src="../images/student1.png"
+                alt="banner"
+              ></img>
             </div>
           </div>
         </div>
