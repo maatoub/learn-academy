@@ -1,8 +1,9 @@
 #banner_contact {
     background-image: url("../../../public/images/banner-contact.png");
     object-fit: cover;
-    position: absolute;
+    background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width: 600px) {

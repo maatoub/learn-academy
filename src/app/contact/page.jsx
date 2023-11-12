@@ -1,15 +1,58 @@
 import NavBar from "@/components/navBar";
 import style from "./contact.module.css";
 import React from "react";
+import ThreeRectangles from "@/components/threeRectangles";
+import ContactForm from "@/components/contactForm";
+import Footer from "@/components/footer";
 
 const Contact = () => {
   return (
     <div>
       <NavBar />
-      <div id={style.banner_contact}>
-        <h2>Contact</h2>
+      <div id={style.banner_contact} className="flex">
+        <div className="flex flex-col p-4 md:p-8 lg:p-14 justify-center">
+          <ThreeRectangles />
+          <h2 className="text-xl md:text-2xl lg:text-4xl font-bold text-white">
+            Contact us
+          </h2>
+          <p className="text-sm md:text-lg lg:text-2xl mt-4 text-white">
+            Want to know more ?
+          </p>
+        </div>
       </div>
-      {/* <img src="../images/banner-contact.png" alt="banner-contact"></img> */}
+      <div className="container mx-auto">
+        <div className="mt-10">
+          <ContactForm />
+        </div>
+        <div className=" flex mt-8 p-4 md:p-8 lg:p-14">
+          <div className="flex flex-col justify-center">
+            <h1 className="sm:text-sm md:text-2xl lg:text-4xl font-bold">
+              Contact info
+            </h1>
+            <ThreeRectangles />
+          </div>
+        </div>
+        <div className="flex flex-wrap ">
+          <div className="w-full md:w-1/2 p-10">
+            <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+              <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                <span class="text-4xl font-bold">Phone</span>
+                <p class="text-amber-300 font-thin">- +212 65958555 -</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full md:w-1/2 p-10">
+            <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">
+              <div class="group-hover:duration-400 relative rounded-2xl w-72 h-36 bg-zinc-800 text-gray-50 flex flex-col justify-center items-center gap-1 before:-skew-x-12  before:rounded-2xl  before:absolute before:content['']  before:bg-neutral-700 before:right-3 before:top-0 before:w-72 before:h-32 before:-z-10">
+                <span class="text-4xl font-bold">E-mail</span>
+                <p class="text-amber-300 font-thin">- aaaaa@gmail.com -</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };
