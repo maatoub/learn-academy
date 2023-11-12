@@ -1,0 +1,20 @@
+#banner_contact {
+    background-image: url("../../../public/images/banner-contact.png");
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #banner_contact {
+        height: 50vh;
+        /* Utilisez vh pour la hauteur sur les petits écrans */
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #banner_contact {
+        height: 50%;
+        /* Utilisez un pourcentage pour la hauteur sur les grands écrans */
+    }
+}
