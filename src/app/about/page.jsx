@@ -26,7 +26,7 @@ const About = () => {
       <div className="container mx-auto">
         <div>
           {/*****************  Who we are ************/}
-          <div className="lg:p-8 sm:p-4 md:p-4">
+          <div >
             <div>
               <h3 className="sm:text-sm md:text-2xl lg:text-4xl font-bold mt-12">
                 Who we are
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
         {/***********  Our objective ***************/}
-        <div className="lg:p-8 sm:p-4 md:p-4">
+        <div >
           <div>
             <h3 className="sm:text-sm md:text-2xl lg:text-4xl font-bold mt-12">
               Our objective
@@ -82,7 +82,7 @@ const About = () => {
           </div>
         </div>
         {/* ****************  Our offers   ****************** */}
-        <div className="lg:p-8 sm:p-4 md:p-4">
+        <div >
           <div>
             <h3 className="sm:text-sm md:text-2xl lg:text-4xl font-bold">
               Our offers

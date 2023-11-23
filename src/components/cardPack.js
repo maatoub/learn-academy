@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAdd, faArrowsV } from "@fortawesome/free-solid-svg-icons";
 const CardPack = () => {
   return (
-    <div className="container">
+    <div >
       <div className="flex flex-wrap -m-4">
         <div className="p-4 md:w-1/3">
           <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">

@@ -1,57 +1,23 @@
 import React from "react";
 
-const Cards = ({ title, description, urlIcon }) => {
+const Cards = ({ title, description, iconUrl }) => {
   return (
-    <div>
-      <div class=" group  cursor-pointer group overflow-hidden relative text-gray-50 h-72 w-56  rounded-2xl hover:duration-700 duration-700">
-        <div class="w-56 h-72 bg-lime-400 text-gray-800">
-          <div class="flex flex-row justify-between">
-            <svg
-              class="fill-current stroke-current w-8 h-8 p-2 hover:bg-lime-200  rounded-full m-1"
-              height="100"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 100 100"
-              width="100"
-              x="0"
-              xmlns="http://www.w3.org/2000/svg"
-              y="0"
-            >
-              <path
-                class=""
-                d="M15.8,32.9V15.8m0,0H32.9m-17.1,0L37.2,37.2m47-4.3V15.8m0,0H67.1m17.1,0L62.8,37.2m-47,29.9V84.2m0,0H32.9m-17.1,0L37.2,62.8m47,21.4L62.8,62.8M84.2,84.2V67.1m0,17.1H67.1"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="8"
-              ></path>
-            </svg>
-            <svg
-              class="fill-current stroke-current w-8 h-8 p-2 m-1 hover:bg-lime-200 rounded-full"
-              height="100"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 100 100"
-              width="100"
-              x="0"
-              xmlns="http://www.w3.org/2000/svg"
-              y="0"
-            >
-              <path
-                class="svg-stroke-primary"
-                d="M50,17.4h0M50,50h0m0,32.6h0M50,22a4.7,4.7,0,1,1,4.7-4.6A4.7,4.7,0,0,1,50,22Zm0,32.7A4.7,4.7,0,1,1,54.7,50,4.7,4.7,0,0,1,50,54.7Zm0,32.6a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,50,87.3Z"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="8"
-              ></path>
-            </svg>
+    <div className="pb-8 mt-16">
+      <div className="group cursor-pointer border-2 border-orange-400 group overflow-hidden relative text-gray-50 h-80 w-full md:w-56 rounded-2xl hover:duration-700 duration-700">
+        <div className="w-full text-gray-800 flex justify-center ">
+          <div className="flex flex-row justify-between ">
+            <img
+              src={iconUrl}
+              alt="Icon"
+              className="p-2"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
           </div>
         </div>
-        <div class="absolute bg-gray-50 -bottom-24 w-56 p-3 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
-          <span class="text-lime-400 font-bold text-xs">TAILWIND</span>
-          <span class="text-gray-800 font-bold text-3xl">{title}</span>
-          <p class="text-neutral-800">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+        <div className="absolute bg-gray-50 border-2 -bottom-24 w-full md:w-55 p-4 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-200">
+          <span className="text-orange-400 font-bold text-xs">Allemande</span>
+          <span className="text-gray-800 font-bold text-xl">{title}</span>
+          <p className="text-neutral-800">{description}</p>
         </div>
       </div>
     </div>

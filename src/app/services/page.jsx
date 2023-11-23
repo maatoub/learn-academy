@@ -31,8 +31,27 @@ const Services = () => {
             Whatever your availability and your level of learning.
           </p>
         </div>
-        <div className="grid lg:grid-cols-6 sm:grid-cols-2 ">
-          <Cards title="nasser" />
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 ">
+          <Cards
+            title="Intensive training"
+            description="A deep and accelerated training."
+            iconUrl="https://img.icons8.com/external-yogi-aprelliyanto-detailed-outline-yogi-aprelliyanto/150/FD7E14/external-target-growth-and-marketing-yogi-aprelliyanto-detailed-outline-yogi-aprelliyanto.png"
+          />
+          <Cards
+            title="Intensive course"
+            description="A more or less accelerated training."
+            iconUrl="https://img.icons8.com/ios-filled/150/FD7E14/calendar--v1.png"
+          />
+          <Cards
+            title="Online course"
+            description="An accelerated distance learning."
+            iconUrl="https://img.icons8.com/wired/150/FD7E14/video-conference.png"
+          />
+          <Cards
+            title="Weekend course"
+            description="A lighter training every weekend."
+            iconUrl="https://img.icons8.com/ios/150/FD7E14/calendar--v1.png"
+          />
         </div>
       </div>
     </div>
