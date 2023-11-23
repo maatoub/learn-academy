@@ -53,28 +53,39 @@ const About = () => {
             </h3>
             <ThreeRectangles />
           </div>
-          <p className="text-center sm:text-sm md:text-xs lg:text-xl mb-4 mt-4">
-            Our main goal is to provide every student who enrolls in the German
-            Academy with the best possible learning experience in German,
-            whether through our online platform or in-person classes. We are
-            committed to helping you achieve your language goals and open the
-            doors to a world of opportunities. Join us at the German Academy for
-            a journey towards mastery of the German language filled with
-            confidence and competence. To start your language journey, contact
-            us now!
-          </p>
-          <p className="text-center sm:text-sm md:text-xs lg:text-xl mb-4">
-            Join us at the German Academy for a journey towards mastery of the
-            German language filled with confidence and competence.
-          </p>
-          <p className="text-center sm:text-sm md:text-xs lg:text-xl mb-4">
-            To start your language journey, contact us now!
-          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <p class="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4 mt-4">
+                Our main goal is to provide every student who enrolls in the
+                German Academy with the best possible learning experience in
+                German, whether through our online platform or in-person
+                classes. We are committed to helping you achieve your language
+                goals and open the doors to a world of opportunities. Join us at
+                the German Academy for a journey towards mastery of the German
+                language filled with confidence and competence. To start your
+                language journey, contact us now!
+              </p>
+              <p class="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4">
+                Join us at the German Academy for a journey towards mastery of
+                the German language filled with confidence and competence.
+              </p>
+              <p class="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4">
+                To start your language journey, contact us now!
+              </p>
+            </div>
+            <div>
+              <img
+                src="../images/objectifs.webp"
+                id={style.img_obj}
+                class="mr-4"
+              />
+            </div>
+          </div>
         </div>
         {/* ****************  Our offers   ****************** */}
         <div className="lg:p-8 sm:p-4 md:p-4">
           <div>
-            <h3 className="sm:text-sm md:text-2xl lg:text-4xl font-bold mt-12">
+            <h3 className="sm:text-sm md:text-2xl lg:text-4xl font-bold">
               Our offers
             </h3>
             <ThreeRectangles />
@@ -135,6 +146,19 @@ const About = () => {
                 <div className="md:w-72 sm:w-full bg-white rounded-b-lg border-t-8 border-black px-4 py-5 flex flex-col justify-around shadow-md">
                   <p className="text-lg font-bold font-sans">
                     Orientation Events
+                  </p>
+                  <div className="py-3">
+                    <p className="text-gray-400 text-sm">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Magni natus rerum deleniti eaque ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="pb-8">
+                <div className="md:w-72 sm:w-full bg-white rounded-b-lg border-t-8 border-green px-4 py-5 flex flex-col justify-around shadow-md">
+                  <p className="text-lg font-bold font-sans">
+                    Preparation Exams
                   </p>
                   <div className="py-3">
                     <p className="text-gray-400 text-sm">

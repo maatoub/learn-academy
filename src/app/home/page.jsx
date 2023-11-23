@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <div>
       <NavBar />
-
       <img
         id={style.banner_home}
         className="w-full h-auto"
@@ -49,6 +48,7 @@ export default function Home() {
                 German will prove very useful far beyond Germany's borders.
               </p>
             </div>
+           
             <div className="w-full sm:w-1/2">
               <img
                 className="w-full h-auto"

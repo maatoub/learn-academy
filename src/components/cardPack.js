@@ -19,15 +19,15 @@ const CardPack = () => {
               </h1>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <div className="flex items-center flex-wrap ">
                 <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -65,15 +65,15 @@ const CardPack = () => {
               </h1>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <div className="flex items-center flex-wrap ">
                 <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -113,15 +113,15 @@ const CardPack = () => {
               </h1>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <p className="leading-relaxed mb-3">
                 <FontAwesomeIcon icon={faAdd} size="1x" />
-                <span> Un texte rapide pour décrire la carte.</span>
+                <span> A quick text to describe the pack.</span>
               </p>
               <div className="flex items-center flex-wrap ">
                 <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
