@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cards = ({ title, description, iconUrl }) => {
+const CardService= ({ title, description, iconUrl }) => {
   return (
     <div className="pb-8 mt-16">
       <div className="group cursor-pointer border-2 border-orange-400 group overflow-hidden relative text-gray-50 h-80 w-full md:w-56 rounded-2xl hover:duration-700 duration-700">
@@ -24,4 +24,4 @@ const Cards = ({ title, description, iconUrl }) => {
   );
 };
 
-export default Cards;
+export default CardService;

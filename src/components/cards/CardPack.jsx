@@ -40,9 +40,9 @@ const CardPack = () => {
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 12h14m-7-7l7 7-7 7"
                     ></path>
                   </svg>
@@ -86,9 +86,9 @@ const CardPack = () => {
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 12h14m-7-7l7 7-7 7"
                     ></path>
                   </svg>
@@ -134,9 +134,9 @@ const CardPack = () => {
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 12h14m-7-7l7 7-7 7"
                     ></path>
                   </svg>

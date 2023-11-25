@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./page.module.css";
-import ThreeRectangles from "@/components/three-rectangles";
-import Cards from "../../components/services/cards";
+import ThreeRectangles from "@/components/shapes/ThreeRectangles";
+import Cards from "../../components/cards/CardService";
 const Services = () => {
   return (
     <>

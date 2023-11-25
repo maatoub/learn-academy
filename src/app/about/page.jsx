@@ -1,13 +1,10 @@
-
 import style from "./page.module.css";
 import React from "react";
-import ThreeRectangles from "@/components/three-rectangles";
-
+import ThreeRectangles from "@/components/shapes/ThreeRectangles";
 
 const About = () => {
   return (
     <div>
-   
       <div id={style.banner_about}>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2">
           <div className="flex flex-col p-4 md:p-8 lg:p-14 justify-center">
@@ -171,7 +168,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

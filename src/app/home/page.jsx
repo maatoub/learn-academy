@@ -1,12 +1,11 @@
 import React from "react";
 import style from "./home.module.css";
-import ThreeRectangles from "@/components/three-rectangles";
-import CardPack from "@/components/card-pack";
+import ThreeRectangles from "@/components/shapes/ThreeRectangles";
+import CardPack from "@/components/cards/CardPack";
 
 export default function Home() {
   return (
     <>
-
       <img
         id={style.banner_home}
         className="w-full h-auto"
