@@ -1,14 +1,13 @@
-import NavBar from "@/components/navBar";
 import style from "./contact.module.css";
 import React from "react";
-import ThreeRectangles from "@/components/threeRectangles";
-import ContactForm from "@/components/contactForm";
-import Footer from "@/components/footer";
+import ThreeRectangles from "@/components/three-rectangles";
+import ContactForm from "@/components/contact-form";
+
 
 const Contact = () => {
   return (
     <div>
-      <NavBar />
+  
       <div id={style.banner_contact} className="flex">
         <div className="flex flex-col p-4 md:p-8 lg:p-14 justify-center">
           <ThreeRectangles />
@@ -63,7 +62,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer />
+
     </div>
   );
 };

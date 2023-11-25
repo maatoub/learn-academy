@@ -1,14 +1,12 @@
-import NavBar from "@/components/navBar";
-import style from "./home.module.css";
-
 import React from "react";
-import ThreeRectangles from "@/components/threeRectangles";
-import CardPack from "@/components/cardPack";
-import Footer from "@/components/footer";
+import style from "./home.module.css";
+import ThreeRectangles from "@/components/three-rectangles";
+import CardPack from "@/components/card-pack";
+
 export default function Home() {
   return (
-    <div>
-      <NavBar />
+    <>
+
       <img
         id={style.banner_home}
         className="w-full h-auto"
@@ -45,10 +43,10 @@ export default function Home() {
                 your German skills, but also gain insight into daily life and
                 the dynamic culture of Germany. Because the Germanic language is
                 widely spoken in Central and Eastern Europe, your knowledge of
-                German will prove very useful far beyond Germany's borders.
+                German will prove very useful far beyond Germany s borders.
               </p>
             </div>
-           
+
             <div className="w-full sm:w-1/2">
               <img
                 className="w-full h-auto"
@@ -59,8 +57,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <Footer />
-    </div>
+    </>
   );
 }

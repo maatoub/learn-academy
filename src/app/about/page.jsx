@@ -1,13 +1,13 @@
-import NavBar from "@/components/navBar";
+
 import style from "./page.module.css";
 import React from "react";
-import ThreeRectangles from "@/components/threeRectangles";
-import Footer from "@/components/footer";
+import ThreeRectangles from "@/components/three-rectangles";
+
 
 const About = () => {
   return (
     <div>
-      <NavBar />
+   
       <div id={style.banner_about}>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2">
           <div className="flex flex-col p-4 md:p-8 lg:p-14 justify-center">
@@ -26,7 +26,7 @@ const About = () => {
       <div className="container mx-auto">
         <div>
           {/*****************  Who we are ************/}
-          <div >
+          <div>
             <div>
               <h3 className="sm:text-sm md:text-2xl lg:text-4xl font-bold mt-12">
                 Who we are
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
         {/***********  Our objective ***************/}
-        <div >
+        <div>
           <div>
             <h3 className="sm:text-sm md:text-2xl lg:text-4xl font-bold mt-12">
               Our objective
@@ -82,7 +82,7 @@ const About = () => {
           </div>
         </div>
         {/* ****************  Our offers   ****************** */}
-        <div >
+        <div>
           <div>
             <h3 className="sm:text-sm md:text-2xl lg:text-4xl font-bold">
               Our offers
@@ -171,7 +171,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
+
     </div>
   );
 };
