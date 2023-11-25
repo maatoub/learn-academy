@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./home.module.css";
+import style from "./page.module.css";
 import ThreeRectangles from "@/components/shapes/ThreeRectangles";
 import CardPack from "@/components/cards/CardPack";
 
