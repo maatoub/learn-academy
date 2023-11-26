@@ -12,7 +12,7 @@ const About = () => {
             <h1 className="sm:text-sm md:text-2xl lg:text-4xl text-white font-bold">
               About the German School
             </h1>
-            <h3 className="sm:text-sm md:text-xl lg:text-2xl text-white mt-4">
+            <h3 className="sm:text-sm md:text-xl lg:text-2xl text-white mt-4 mb-8">
               Welcome to the German Academy, your trusted partner in Morocco to
               fulfill your aspirations related to Germany.
             </h3>
@@ -20,7 +20,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="container mx-auto">
+      <div className="container">
         <div>
           {/*****************  Who we are ************/}
           <div>

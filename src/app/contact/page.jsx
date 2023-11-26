@@ -23,18 +23,22 @@ const Contact = () => {
   ];
 
   return (
-    <div>
-      <div id={style.banner_contact} className="flex">
-        <div className="flex flex-col p-4 md:p-8 lg:p-14 justify-center">
-          <ThreeRectangles />
-          <h2 className="text-xl md:text-2xl lg:text-4xl font-bold text-white">
-            Contact us
-          </h2>
-          <p className="text-sm md:text-lg lg:text-2xl mt-4 text-white">
-            Want to know more ?
-          </p>
+    <>
+      <div id={style.banner_contact}>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2">
+          <div className="flex flex-col p-4 md:p-8 lg:p-14 justify-center">
+            <ThreeRectangles />
+            <h1 className="sm:text-sm md:text-2xl lg:text-4xl text-white font-bold">
+              Contact us
+            </h1>
+            <h3 className="sm:text-sm md:text-xl lg:text-2xl text-white mt-4 pb-24">
+              Want to know more ?
+            </h3>
+          </div>
         </div>
       </div>
+      {/************************ */}
+
       <div className="container mx-auto">
         <div className="mt-10">
           <ContactForm />
@@ -62,7 +66,7 @@ const Contact = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

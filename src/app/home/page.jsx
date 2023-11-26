@@ -2,16 +2,20 @@ import React from "react";
 import style from "./page.module.css";
 import ThreeRectangles from "@/components/shapes/ThreeRectangles";
 import CardPack from "@/components/cards/CardPack";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <img
+      <Image
         id={style.banner_home}
         className="w-full h-auto"
-        src="../images/banner-home.png"
+        width={12000}
+        height={12000}
+        quality={100}
+        src="/images/banner-home.png"
         alt="banner"
-      ></img>
+      />
 
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold mt-16">
