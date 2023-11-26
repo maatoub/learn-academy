@@ -2,6 +2,7 @@ import React from "react";
 import style from "./page.module.css";
 import ThreeRectangles from "@/components/shapes/ThreeRectangles";
 import Cards from "../../components/cards/CardService";
+import Course from "@/components/carousel/Course";
 const Services = () => {
   return (
     <>
@@ -51,6 +52,20 @@ const Services = () => {
             iconUrl="https://img.icons8.com/ios/150/FD7E14/calendar--v1.png"
           />
         </div>
+        {/**************  Our Courses **************/}
+      </div>
+      <div className="mt-10 bg-slate-950 w-full text-center text-white p-12">
+        <div className="">
+          <span>Our Courses</span>
+          <p>
+            Discover our tailor-made German courses, adapted to your needs.
+            Prepare for the B2 exam at the Goethe Institute, improve your
+            professional skills, or simply immerse yourself in the beauty of
+            this language. Join us now to start your journey towards mastering
+            German.
+          </p>
+        </div>
+        <Course />
       </div>
     </>
   );

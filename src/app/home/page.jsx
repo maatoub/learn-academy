@@ -3,17 +3,16 @@ import style from "./page.module.css";
 import ThreeRectangles from "@/components/shapes/ThreeRectangles";
 import CardPack from "@/components/cards/CardPack";
 import Image from "next/image";
+import banner_home from "/public/images/banner-home.png";
 
 export default function Home() {
   return (
     <>
       <Image
         id={style.banner_home}
+        src={banner_home}
         className="w-full h-auto"
-        width={12000}
-        height={12000}
         quality={100}
-        src="/images/banner-home.png"
         alt="banner"
       />
 

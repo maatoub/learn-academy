@@ -1,7 +1,9 @@
 "use client";
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { links } from "./data";
+import Link from "next/link";
+import logo from "/public/images/logo.png";
+import Image from "next/image";
 
 const NavBar = () => {
   const [currentRoute, setCurrentRout] = useState();
@@ -13,12 +15,19 @@ const NavBar = () => {
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
         <Link href="/home" className="flex items-center">
-          <img src="../images/logo.png" className="h-8 mr-3" alt="Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Learn
-          </span>
+          <Image
+            src={logo}
+            style={{ width: "auto", height: "auto" }}
+            width={60}
+            height={50}
+            quality={100}
+            alt="logo"
+          />
+          <div className="underline font-bold self-center whitespace-nowrap dark:text-white">
+            <label className="text-2xl font-serif">GERMAN</label>
+            <label className="font-light text-sm">ACADEMY</label>
+          </div>
         </Link>
-
         <div className="flex md:order-2">
           <button
             type="button"
@@ -63,7 +72,7 @@ const NavBar = () => {
                   onClick={() => setCurrentRout(item.path)}
                   className={`${
                     currentRoute === item.path ? "text-red-700" : "text-black"
-                  } block py-2 pl-3 pr-4 text-xl text-white`}
+                  } block py-2 pl-3 pr-4 text-xl hover:text-red-700`}
                   aria-current="page"
                 >
                   {item.name}

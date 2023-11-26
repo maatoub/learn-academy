@@ -1,17 +1,27 @@
 import React from "react";
-
+import Link from "next/link";
+import logo from "/public/images/logo.png";
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-slate-100 dark:bg-gray-900 mt-20">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
-              <img src="../images/logo.png" className="h-8 me-3" alt="Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Learn
-              </span>
-            </a>
+            <Link href="/home" className="flex items-center">
+              <Image
+                src={logo}
+                width={60}
+                height={50}
+                quality={100}
+                alt="logo"
+                style={{ width: "auto", height: "auto" }}
+              />
+              <div className="underline font-bold self-center whitespace-nowrap dark:text-white">
+                <label className="text-2xl font-serif">GERMAN</label>
+                <label className="font-light text-sm">ACADEMY</label>
+              </div>
+            </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-5">
             <div>
