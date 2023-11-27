@@ -3,6 +3,7 @@ import style from "./page.module.css";
 import ThreeRectangles from "@/components/shapes/ThreeRectangles";
 import Cards from "../../components/cards/CardService";
 import Course from "@/components/carousel/Course";
+import { PhoneFilled, MailFilled, PushpinFilled } from "@ant-design/icons";
 const Services = () => {
   return (
     <>
@@ -55,9 +56,9 @@ const Services = () => {
         {/**************  Our Courses **************/}
       </div>
       <div className="mt-10 bg-slate-950 w-full text-center text-white p-12">
-        <div className="">
-          <span>Our Courses</span>
-          <p>
+        <div>
+          <span className="sm:text-6xl text-3xl font-bold">Our Courses</span>
+          <p className="mt-8 font-thin text-xl">
             Discover our tailor-made German courses, adapted to your needs.
             Prepare for the B2 exam at the Goethe Institute, improve your
             professional skills, or simply immerse yourself in the beauty of
@@ -65,7 +66,29 @@ const Services = () => {
             German.
           </p>
         </div>
-        <Course />
+        <div className="mt-10 ">
+          <Course />
+        </div>
+      </div>
+      <div className="mt-10 w-full text-center p-12">
+        <div className="flex flex-col items-center">
+          <span className="sm:text-6xl text-3xl font-bold">Contact us</span>
+          <ThreeRectangles className="container" />
+        </div>
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 mt-14">
+          <div>
+            <PhoneFilled style={{ fontSize: "80px" }} />
+            <h2 className="p-4 text-2xl">+212 06666666</h2>
+          </div>
+          <div>
+            <MailFilled style={{ fontSize: "80px" }} />
+            <h2 className="p-4 text-2xl">aaaaa@gmail.com</h2>
+          </div>
+          <div>
+            <PushpinFilled style={{ fontSize: "80px" }} />
+            <h2 className="p-4 text-2xl">Casablanca</h2>
+          </div>
+        </div>
       </div>
     </>
   );
