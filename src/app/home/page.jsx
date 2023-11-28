@@ -4,6 +4,7 @@ import ThreeRectangles from "@/components/shapes/ThreeRectangles";
 import CardPack from "@/components/cards/CardPack";
 import Image from "next/image";
 import banner_home from "/public/images/banner-home.png";
+import unDraw from "/public/images/unDraw.svg";
 
 export default function Home() {
   return (
@@ -17,10 +18,25 @@ export default function Home() {
       />
 
       <div className="container mx-auto">
-        <h1 className="sm:text-4xl text-xs font-bold mt-16">
-          Choose the plan that suits you best!
-        </h1>
+        <div className="grid sm:grid-cols-2">
+          <div className="sm:mt-12">
+            <h1 className="sm:text-6xl font-extrabold" id={style.title}>
+              Reach your goals with us!
+            </h1>
+            <p className="sm:text-xl sm:mt-8">
+              Don't wait anymore! Book your spot now with our team of German
+              language experts! Our courses are designed to be practical,
+              efficient, and tailored to your schedule.
+            </p>
+          </div>
+          <div className="">
+            <Image src={unDraw} alt="unDraw" />
+          </div>
+        </div>
         <div>
+          <h1 className="sm:text-4xl text-xs font-bold mt-16">
+            Choose the plan that suits you best!
+          </h1>
           <ThreeRectangles />
         </div>
         <div className="mt-16">

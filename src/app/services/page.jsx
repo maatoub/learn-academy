@@ -25,10 +25,10 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="text-center mt-16">
           <h2 className="sm:text-sm lg:text-5xl font-medium">
-            Benefit from tailored language courses.
+            Benefit from tailored language courses
           </h2>
           <p className="sm:text-sm lg:text-2xl mt-6">
-            Whatever your availability and your level of learning.
+            Whatever your availability and your level of learning
           </p>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 ">
