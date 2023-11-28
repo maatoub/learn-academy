@@ -49,23 +49,23 @@ const About = () => {
             </h3>
             <ThreeRectangles />
           </div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <p class="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4 mt-4">
+              <p className="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4 mt-4">
                 Our main goal is to provide every student who enrolls in the
                 German Academy with the best possible learning experience in
                 German, whether through our online platform or in-person
-                classes. We are committed to helping you achieve your language
-                goals and open the doors to a world of opportunities. Join us at
-                the German Academy for a journey towards mastery of the German
-                language filled with confidence and competence. To start your
-                language journey, contact us now!
+                classNames. We are committed to helping you achieve your
+                language goals and open the doors to a world of opportunities.
+                Join us at the German Academy for a journey towards mastery of
+                the German language filled with confidence and competence. To
+                start your language journey, contact us now!
               </p>
-              <p class="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4">
+              <p className="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4">
                 Join us at the German Academy for a journey towards mastery of
                 the German language filled with confidence and competence.
               </p>
-              <p class="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4">
+              <p className="text-center text-sm sm:text-xs md:text-sm lg:text-xl mb-4">
                 To start your language journey, contact us now!
               </p>
             </div>
@@ -73,7 +73,7 @@ const About = () => {
               <img
                 src="../images/objectifs.webp"
                 id={style.img_obj}
-                class="mr-4"
+                className="mr-4"
               />
             </div>
           </div>

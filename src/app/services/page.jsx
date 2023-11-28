@@ -70,12 +70,12 @@ const Services = () => {
           <Course />
         </div>
       </div>
-      <div className="mt-10 w-full text-center p-12">
+      <div className="mt-10 w-full text-center p-12 lg:block hidden">
         <div className="flex flex-col items-center">
           <span className="sm:text-6xl text-3xl font-bold">Contact us</span>
           <ThreeRectangles className="container" />
         </div>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 mt-14">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 mt-14 ">
           <div>
             <PhoneFilled style={{ fontSize: "80px" }} />
             <h2 className="p-4 text-2xl">+212 06666666</h2>

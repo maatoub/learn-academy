@@ -17,7 +17,7 @@ export default function Home() {
       />
 
       <div className="container mx-auto">
-        <h1 className="text-4xl font-bold mt-16">
+        <h1 className="sm:text-4xl text-xs font-bold mt-16">
           Choose the plan that suits you best!
         </h1>
         <div>
@@ -27,13 +27,13 @@ export default function Home() {
           <CardPack />
         </div>
         <div className="mt-16">
-          <h1 className="text-4xl font-bold mt-24">
+          <h1 className="sm:text-4xl text-xs font-bold mt-24">
             Participate in our events
           </h1>
           <ThreeRectangles />
           <div className="flex flex-wrap">
             <div className="w-full sm:w-1/2 lg:pr-4">
-              <p className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl mt-14">
+              <p className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl sm:mt-10">
                 With our events, workshops, and workshops, we offer you
                 enriching experiences. Join our events to meet career experts
                 and enrich your path, whether you love the German language,
