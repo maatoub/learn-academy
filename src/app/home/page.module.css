@@ -6,4 +6,5 @@
     background: linear-gradient(to bottom, orange, black);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 32px;
 }

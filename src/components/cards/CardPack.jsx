@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAdd } from "@fortawesome/free-solid-svg-icons";
 const CardPack = () => {
   return (
-    <div>
+    <div className="">
       <div className="flex flex-wrap -m-4">
         <div className="p-4 md:w-1/3">
           <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
@@ -14,7 +14,7 @@ const CardPack = () => {
               alt="blog"
             />
             <div className="p-6">
-              <h1 className="title-font text-2xl font-bold text-gray-900 mb-3">
+              <h1 className="title-font text-2xl font-bold text-orange-600 mb-3">
                 Pack 1
               </h1>
               <p className="leading-relaxed mb-3">
@@ -60,7 +60,7 @@ const CardPack = () => {
               alt="blog"
             />
             <div className="p-6">
-              <h1 className="title-font text-2xl font-bold text-gray-900 mb-3">
+              <h1 className="title-font text-2xl font-bold text-orange-600 mb-3">
                 Pack 2
               </h1>
               <p className="leading-relaxed mb-3">
@@ -108,7 +108,7 @@ const CardPack = () => {
               alt="blog"
             />
             <div className="p-6">
-              <h1 className="title-font text-2xl font-bold text-gray-900 mb-3">
+              <h1 className="title-font text-2xl font-bold text-orange-600 mb-3">
                 Pack 3
               </h1>
               <p className="leading-relaxed mb-3">
